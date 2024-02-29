@@ -28,10 +28,7 @@ $(document).ready(function () {
     });
 
     // toggle menu/navbar script
-    $('.menu-btn').click(function () {
-        $('.navbar .menu').toggleClass("active"); // Agrega o quita la clase "active" a la lista de menú para mostrar u ocultar el menú
-        $('.menu-btn i').toggleClass("active"); // Agrega o quita la clase "active" al icono del botón del menú para mostrar u ocultar el menú
-    });
+   
 
     // typing text animation script
     var typed = new Typed(".typing", {

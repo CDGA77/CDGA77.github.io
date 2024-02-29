@@ -270,10 +270,10 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    
+    
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .about .about-content .right{
     width: 55%;
@@ -294,6 +294,9 @@ section .title::after{
 }
 .about .about-content .column .iconos{
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
 }
 .about .about-content .right a{
      display: inline-block;
@@ -385,7 +388,7 @@ section .title::after{
 .card {
     background-color: #222;
     border-radius: 6px;
-    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    box-shadow: 0 20px 40px -14px blue;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -836,10 +839,10 @@ footer p a:hover
 /* ESTILOS DE LOS ICONOS */
 .iconos{
     gap: 20px;
-    margin: 20px;
+    margin-top: 20px;
     
 }
 .iconos img{
-    margin: 30px;
+    margin: 30px 0px;
 }
 /* FIN ESTILOS DE LOS ICONOS */
