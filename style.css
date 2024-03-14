@@ -34,6 +34,7 @@ section{
     padding: 100px 0;
 }
 .max-width{
+    
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
@@ -321,7 +322,14 @@ section .title::after{
 
 /****** INICIO SECCION PROYECTOS ********/
 
+
+.contCards{
+    display: flex;
+}
+
 .teams{
+    display: flex;
+    justify-content: space-around;
     color:#fff;
     background: #111;
 }
@@ -428,27 +436,17 @@ section .title::after{
       }
     }
   }
-  
-.card__image--serevena{
-    background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
-}
-  
-.card__image--weather {
-    background-image: url(https://plus.unsplash.com/premium_photo-1664303017917-71ebeb42343d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1373&q=80);
-}
-  
+
 .card__image--portafolio {
     background-image: url(https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
 }
   
-.card__image--rick {
-    background-image: url(https://images.unsplash.com/photo-1592564630984-7410f94db184?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmljayUyNk1vcnR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
-}
-.card__image--bomberos {
-    background-image: url(https://images.unsplash.com/photo-1554256092-96709174126a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1365&q=80);
-}
 .card__image--github {
     background-image: url(https://images.unsplash.com/photo-1630514969818-94aefc42ec47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+}
+
+.card__image--Actividades{
+    background-image: url(https://tienda.maudestudio.com/wp-content/uploads/2018/11/bases_datos.jpg);
 }
   
   .card__title {
