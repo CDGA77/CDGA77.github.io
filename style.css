@@ -325,6 +325,7 @@ section .title::after{
 
 .contCards{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .teams{
