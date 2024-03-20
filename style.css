@@ -295,9 +295,9 @@ section .title::after{
 }
 .about .about-content .column .iconos{
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .about .about-content .right a{
      display: inline-block;
@@ -836,6 +836,11 @@ footer p a:hover
 }
 
 /* ESTILOS DE LOS ICONOS */
+.conticonos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .iconos{
     gap: 20px;
     margin-top: 20px;
