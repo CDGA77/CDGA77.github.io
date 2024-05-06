@@ -449,6 +449,10 @@ section .title::after{
 .card__image--Actividades{
     background-image: url(https://tienda.maudestudio.com/wp-content/uploads/2018/11/bases_datos.jpg);
 }
+.card__image--SpaceX{
+    background-image: url(https://studentwork.prattsi.org/infovis/wp-content/uploads/sites/3/2021/02/spacex-tesmanian_1600x.jpg);
+}
+
   
   .card__title {
     color: red;
